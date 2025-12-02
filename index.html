@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Frijal</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:john@example.com">
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Frijal</h2>
+        <div class="links">
+          <a href="#skills">
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <span>Education</span>
+          </a>
+          
+          <a href="#contact">
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="hh.jpg" alt="Frijal">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+       Skilled in building responsive, user-friendly websites using HTML, CSS, and JavaScript.
+Capable of creating interactive interfaces and bringing modern web designs to life.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Education</h2>
+
+      <div class="group">
+        <div class="text">
+         I completed my high school education at Kathmandu Bernhardt, where I built a strong academic foundation. Currently, I am pursuing my Bachelor’s degree at Kathmandu Bernhardt College, and I am in my 3rd semester, continuing to expand my knowledge and skills in my chosen field.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+        If you would like to get in touch, feel free to reach out to me anytime. I am available for collaboration, project inquiries, or any questions you may have. You can contact me through my email or social media platforms, and I will respond as soon as possible. I look forward to connecting with you!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

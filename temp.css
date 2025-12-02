@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #89cff0, #6a9bd8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for converter */
+.converter-box {
+    background: #ffffffcc;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+/* Input field */
+#input1 {
+    width: 250px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #6a9bd8;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+}
+
+#input1:focus {
+    border-color: #3c6dd8;
+}
+
+/* Buttons */
+input[type="submit"] {
+    display: block;
+    width: 250px;
+    padding: 12px;
+    margin: 8px auto;
+    background-color: #3c6dd8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a52ac;
+    transform: scale(1.03);
+}
+
+input[type="submit"]:active {
+    transform: scale(0.97);
+}
