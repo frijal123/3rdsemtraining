@@ -1,0 +1,106 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #87CEEB, #dfe9f3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ===== Parent Container ===== */
+.parent {
+    width: 90%;
+    max-width: 850px;
+    background: #ffffffbb;
+    backdrop-filter: blur(10px);
+    border-radius: 22px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ===== Header Images Row ===== */
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.img-container img {
+    width: 70px;
+}
+
+.img-container h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* ===== Weather Block ===== */
+.block {
+    background: #ffffffd8;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.block p {
+    font-size: 20px;
+    margin: 12px 0;
+    color: #222;
+}
+
+#data {
+    font-size: 34px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+#advice {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444;
+    font-style: italic;
+}
+
+/* ===== Bottom Images Row ===== */
+.img-container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-container2 img {
+    width: 110px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+    .img-container img {
+        width: 55px;
+    }
+
+    .img-container h3 {
+        font-size: 22px;
+    }
+
+    #data {
+        font-size: 28px;
+    }
+
+    .img-container2 img {
+        width: 80px;
+    }
+}
